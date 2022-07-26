@@ -20,30 +20,30 @@ By the end of this session, learners will be able to:
 #### **JSX**: A React extension to the JavaScript language syntax which provides a way to structure component rendering using syntax familiar to many developers. It is similar in appearance to HTML.
 ---
 
-## What is React?
+### What is React?
 ---
 #### React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
 ---
 
-## What is a Component?
+### What is a Component?
 ---
 #### React components are independent and reusable code. They are the building blocks of any React application. Components serve the same purpose as JavaScript functions, but work individually to return JSX code as elements for our UI. These components may or may not receive data as parameters.
 ---
 
-## What is JSX?
+### What is JSX?
 ---
 #### JSX stands for JavaScript syntax extension. It is a JavaScript extension that allows us to describe React's object tree using a syntax that resembles that of an HTML template. It is an XML-like extension that allows us to write JavaScript that looks like HTML markup and have it returned from a component.
 ---
-## What are props?
+### What are props?
 ---
 #### props is a special keyword in React, which stands for properties and is used for passing data from one component to another. But the important part here is that data with props are being passed in a uni-directional flow ( one way from parent component to the child component). Props are read-only and therefore immutable. You can pass any type of data available in JavaScript — such as number, Boolean, or object — into props. Props are declared in the same way that one would declare an HTML attribute in an element.
 ---
-## What is a React Fragment?
+### What is a React Fragment?
 ---
 #### React also gives us an element called a fragment (<> </>). React requires that all returned elements be returned within a single “parent” component. If we don’t want to wrap our elements in a container element like a div, we can use a fragment:
 ---
 
-## Initial Setup:
+### Initial Setup:
 ---
 #### The first thing we need to do is set up our React project, we are going to do this from scratch. We need to create a project directory. Let us call this directory react_Intro. We need to cd into this directory to initialize our project. Then we need to initialize our app with the package.json by inputting the command npm init -y, then following this we will need to install all of our dependencies with the command npm install react react-dom react scripts. 
 
@@ -115,7 +115,7 @@ npm start
 
 #### Now lets edit the index.js file to display some hard coded elements.
 ---
-## Editing the index.js file
+### Editing the index.js file
 ---
 ***Copy and paste the code below***
 ```
@@ -185,7 +185,7 @@ export default Grocery_list_props;
 
 #### Now as you may notice we have a parameter of props in our Grocery_list_props function. This parameter gives us access to the props object. However to use this props object we need to pass it some values. We would do this from the parent component where we are creating an instance of this component; in the Index.js file.
 ---
-## Editing the index.js file
+### Editing the index.js file
 ---
 #### Lets now open our Index.js file and change some code in here as well, since we want to pass props to the child component
 ***Grocery_list_props***. We will now add a ***grocerylist object*** with some key value pairs.
@@ -229,12 +229,12 @@ import Grocery_list_props from './Components/Grocery_List/Grocery_list_props';
 
 #### As you may see here we are accessing the ***props object** and accessing the ***groceryitems object*** and getting the key values. Which are dynamically updating our component with the data that the groceryitems contains.
 ---
-## Final Thoughts
+### Final Thoughts
 ---
 Today we covered a good amount of material. We learned what a React component is, how it works with the passing of props as well as how to create an instance of the component.
 
 ---
-## Review
+### Review
 ---
 - How do you create and use components in React?
 
