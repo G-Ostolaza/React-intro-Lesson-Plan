@@ -221,13 +221,13 @@ import Grocery_list_props from './Components/Grocery_List/Grocery_list_props';
 ```
 <Grocery_list_props groceryItems={groceryList} />
 ```
-### Now ***groceryitems*** will be the key in the ***props object*** that we can reference and use in the ***Grocery_list_props Component***
+#### Now ***groceryitems*** will be the key in the ***props object*** that we can reference and use in the ***Grocery_list_props Component***
 
-###Now we can open our  ***Grocery_list_props.js*** file and see how props are being used in our code.
+#### Now we can open our  ***Grocery_list_props.js*** file and see how props are being used in our code.
 
-### We can now access the ***props object*** as we would do any other JavaScript object using dot syntax. Which can be seen in the code we have in the  ***Grocery_list_prop Component file***
+#### We can now access the ***props object*** as we would do any other JavaScript object using dot syntax. Which can be seen in the code we have in the  ***Grocery_list_prop Component file***
 
-### As you may see here we are accessing the ***props object** and accessing the ***groceryitems object*** and getting the key values. Which are dynamically updating our component with the data that the groceryitems contains. 
+#### As you may see here we are accessing the ***props object** and accessing the ***groceryitems object*** and getting the key values. Which are dynamically updating our component with the data that the groceryitems contains. 
 
 
 
