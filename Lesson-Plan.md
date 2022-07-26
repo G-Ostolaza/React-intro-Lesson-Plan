@@ -227,7 +227,21 @@ import Grocery_list_props from './Components/Grocery_List/Grocery_list_props';
 
 #### We can now access the ***props object*** as we would do any other JavaScript object using dot syntax. Which can be seen in the code we have in the  ***Grocery_list_prop Component file***
 
-#### As you may see here we are accessing the ***props object** and accessing the ***groceryitems object*** and getting the key values. Which are dynamically updating our component with the data that the groceryitems contains. 
+#### As you may see here we are accessing the ***props object** and accessing the ***groceryitems object*** and getting the key values. Which are dynamically updating our component with the data that the groceryitems contains.
+---
+## Final Thoughts
+---
+Today we covered a good amount of material. We learned what a React component is, how it works with the passing of props as well as how to create an instance of the component.
+
+---
+## Review
+---
+- How do you create and use components in React?
+
+- How do we send props to child components?
+
+
+
 
 
 
