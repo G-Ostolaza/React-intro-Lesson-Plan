@@ -22,7 +22,7 @@ By the end of this session, learners will be able to:
 
 ### What is React?
 ---
-#### React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
+#### React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. React creates a virtual DOM that mirrors the Main DOM and applies updates to the main DOM when changes occur.
 ---
 
 ### What is a Component?
