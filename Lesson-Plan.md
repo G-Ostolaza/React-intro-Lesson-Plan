@@ -32,7 +32,7 @@ By the end of this session, learners will be able to:
 
 ### What is JSX?
 ---
-#### JSX stands for JavaScript syntax extension. It is a JavaScript extension that allows us to describe React's object tree using a syntax that resembles that of an HTML template. It is an XML-like extension that allows us to write JavaScript that looks like HTML markup and have it returned from a component.
+#### JSX stands for JavaScript syntax extension. It is a JavaScript extension that allows us to describe React's object tree using a syntax that resembles that of an HTML template. It is an XML-like extension that allows us to write JavaScript that looks like HTML markup and have it returned from a component. 
 ---
 ### What are props?
 ---
@@ -40,7 +40,7 @@ By the end of this session, learners will be able to:
 ---
 ### What is a React Fragment?
 ---
-#### React also gives us an element called a fragment (<> </>). React requires that all returned elements be returned within a single “parent” component. If we don’t want to wrap our elements in a container element like a div, we can use a fragment:
+#### React also gives us an element called a fragment (<> </>). React requires that all returned elements be returned within a single “parent” component. If we don’t want to wrap our elements in a container element like a div, we can use a fragment. React.fragment eliminates extra nodes from the DOM; it does not appear as a node, where as a div will be when rendering.
 ---
 
 ### Initial Setup:
@@ -100,7 +100,7 @@ const App = () => {
     );
 };
 
-ReactDom.render(<App/>, document querySelector("#root"));
+ReactDom.render(<App/>, document.querySelector("#root"));
 ```
 ---
 
